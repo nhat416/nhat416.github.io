@@ -5,9 +5,9 @@ permalink: /about/
 ---
 Nhat
 
-LinkTree: https://linktr.ee/nhat416
+LinkTree: [linktree](https://linktr.ee/nhat416)
 
-LinkedIn: https://linkedin.com/in/nhat-toronto
+LinkedIn: [nhat-toronto](https://linkedin.com/in/nhat-toronto)
 
 ::emoji::hello::
 ---
