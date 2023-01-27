@@ -7,7 +7,7 @@ Nhat
 
 LinkTree: [linktree](https://linktr.ee/nhat416)
 
-LinkedIn: [nhat-toronto](https://linkedin.com/in/nhattran-toronto)
+LinkedIn: [nhattran-toronto](https://linkedin.com/in/nhattran-toronto)
 
 :wave:
 
