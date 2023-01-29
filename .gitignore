@@ -10,6 +10,8 @@ vendor
 ### Deno ###
 /.idea/
 /.vscode/
+.denoflare
+
 
 /node_modules
 
