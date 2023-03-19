@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Qualified and professional cloud, software and data engineer architecting and
+    implementing IT solutions for the business and clients focusing on cloud and
+    data architectures, pipelines and automation. 
+    <br><br>
+
+    Tech stacks: Jira, Confluence, Linux (Debian- and Red Hat-based distros), 
+    git and GitHub, AWS, Azure, Docker, Podman, Kubernetes, Red Hat Openshift 4,
+    Jenkins, AWS CodePipeline, GitHub Actions, HashiCorp Packer, HashiCorp Terraform,
+    AWS CloudFormation, Python, SQL, Spark, Airflow.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Data Engineering"
+      subtitle="WeCloudData, Toronto, Canada -- 2021"
+    />
+    <TimeLineElement
+      title="MBA"
+      subtitle="Quantic School of Business and Technology, Remote -- 2019-2020"
+    />
+    <TimeLineElement
+      title="Master of Science"
+      subtitle="University of Toronto -- 2011-2014"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Tech Lead and DevOps Program Manager"
+      subtitle="WeCloudData, Toronto, Canada -- 2021-Present"
+      desc="Lead internal development, operations and engineering teams to build technology solutions for the company and translating executive team’s vision into practical products and services. Architect and implement reliable and scalable cloud systems hosting mission-critical apps. Implement DevOps systems and CI/CD to facilitate and accelerate tech team's SDLC."
+    />
+    <TimeLineElement
+      title="Tech Lead and Project Manager"
+      subtitle="Beamdata, Toronto, Canada -- 2021-Present"
+      desc="Lead teams of developers and engineers to implement technology solutions for clients while managing the organization’s GitHub teams, repositories and access. Deliver multiple high-impact portfolio of solutions to multiple clients with software and data platform solutions that enhance business value and efficiency with a focus on software delivery pipelines, automation and best practice architectures."
+    />
+    <TimeLineElement
+      title="Associate Executive Advisor and Consulting Analyst"
+      subtitle="Info-Tech, Toronto, Canada -- 2018-2020"
+      desc="Develop IT projects, process frameworks and thought models by leveraging various project management techniques and translating industry best-practices and methodologies into actionable recommendations for CIO's and business executives."
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.credly.com/badges/30a9687c-994e-46ae-ac3d-372d8207efb6/public_url" target="_blank"> HashiCorp Certified Vault Associate</a>
+    </li>
+    <li>
+      <a href="https://www.credly.com/badges/023cdcc2-f8d1-48e7-9c33-9cd4a0a88693/public_url" target="_blank"> Professional Scrum Master I (PSM I)</a>
+    </li>
+    <li>
+      <a href="https://www.credly.com/badges/c9d48f9a-91f2-40ec-a55d-5ff611fc125a/public_url" target="_blank"> Astronomer Certification for Apache Airflow Fundamentals </a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-3 columns-2 mx-6">
+    <li>AWS</li>
+    <li>Azure</li>
+    <li>Linux</li>
+    <li>Docker</li>
+    <li>Git</li>
+    <li>Jira</li>
+    <li>Scrum</li>
+    <li>Docker</li>
+    <li>Kubernetes</li>
+    <li>OpenShift</li>
+    <li>Jenkins</li>
+    <li>HashiCorp Packer</li>
+    <li>HashiCorp Terraform</li>
+    <li>Ansible</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>Postgres</li>
+  </ul>
+</BaseLayout>
