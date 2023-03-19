@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# nhat416.github.io
-=======
 # Astro Modern Personal Website
 
 ![Astro Modern Personal Website](public/social_img.png)
@@ -255,4 +252,3 @@ Made with [contrib.rocks](https://contrib.rocks).
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
->>>>>>> 78516a4 (add astro files)
